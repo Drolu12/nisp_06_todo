@@ -6,17 +6,19 @@
 </head>
 <body>
 
-    <div class="todo-container">
+   <div class="todo-container">
+    <div class="header">
         <h1>Lista zadań</h1>
-        
-        <div class="input-group">
-            <input type="text" id="task-input" placeholder="Co masz do zrobienia?">
-            <button id="add-task-btn">Dodaj</button>
-        </div>
-
-        <ul id="task-list">
-            </ul>
+        <button id="theme-toggle" class="theme-btn">🌙</button>
     </div>
+    
+    <div class="input-group">
+        <input type="text" id="task-input" placeholder="Co masz do zrobienia?">
+        <button id="add-task-btn">Dodaj</button>
+    </div>
+
+    <ul id="task-list"></ul>
+</div>
 
     <script src="app.js"></script>
 </body>
